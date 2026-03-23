@@ -30,6 +30,7 @@ export default function Header() {
           ShoppyGlobe
         </Link>
 
+        {/* search functionality */}
         <input
           type="text"
           value={search}
