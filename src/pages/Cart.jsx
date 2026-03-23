@@ -1,4 +1,4 @@
-
+// Cart components
 import { useSelector } from "react-redux";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
