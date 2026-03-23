@@ -41,7 +41,7 @@ export default function Checkout() {
     return false;
   };
 
-  // VALIDATION
+  // Implemented VALIDATION
   const validate = () => {
     let newErrors = {};
 
