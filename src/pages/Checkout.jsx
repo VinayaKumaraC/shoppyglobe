@@ -83,7 +83,7 @@ export default function Checkout() {
     setTimeout(() => {
       dispatch(clearCart());
       navigate("/success");
-    }, 1500); // simulate loading
+    }, 1500); 
   };
 
   return (
