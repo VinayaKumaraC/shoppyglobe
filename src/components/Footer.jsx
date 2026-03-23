@@ -1,3 +1,4 @@
+// Footer components
 export default function Footer() {
   return (
     <div className="bg-[#131921] text-white mt-10">
