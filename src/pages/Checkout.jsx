@@ -213,7 +213,7 @@ export default function Checkout() {
               <span>${total.toFixed(2)}</span>
             </div>
 
-            {/* BUTTON WITH LOADER */}
+            {/* BUTTON WITH spinner LOADER */}
             <button
               onClick={handleOrder}
               disabled={loading}
