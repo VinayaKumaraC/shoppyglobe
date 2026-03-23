@@ -1,4 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit"; // ✅ THIS LINE IS MISSING
+import { configureStore } from "@reduxjs/toolkit";
 import cartReducer from "./cartSlice";
 import productReducer from "./productSlice";
 
