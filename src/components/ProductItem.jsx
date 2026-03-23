@@ -1,3 +1,4 @@
+////Product component
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
