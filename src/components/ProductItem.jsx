@@ -1,4 +1,4 @@
-////Product component
+//Product component
 import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
@@ -53,7 +53,7 @@ export default function ProductItem({ product }) {
                        transition transform duration-100"
           >
             Add to Cart
-          </button>
+          </button> 
 
           <Link
             to={`/product/${product.id}`}
