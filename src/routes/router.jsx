@@ -9,6 +9,7 @@ const Checkout = lazy(() => import("../pages/Checkout"));
 const Success = lazy(() => import("../pages/Success"));
 const NotFound = lazy(() => import("../pages/NotFound"));
 
+// Lazy Loading implemented
 const withSuspense = (Component) => (
   <Suspense fallback={<p className="pt-28 text-center">Loading...</p>}>
     <Component />
