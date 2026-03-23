@@ -1,4 +1,4 @@
-
+// slidebar components
 import { useDispatch, useSelector } from "react-redux";
 import {setCategory,setPriceRange,setRating,resetFilters,} from "../redux/productSlice";
 
