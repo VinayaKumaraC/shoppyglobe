@@ -18,7 +18,7 @@ export default function ProductDetail() {
 
   useEffect(() => {
     axios
-      .get(`https://dummyjson.com/products/${id}`)
+      .get(`https://dummyjson.com/products/${id}`) //Api  
       .then(res => setProduct(res.data))
       .catch(() => setError("Failed to load product"));
   }, [id]);
