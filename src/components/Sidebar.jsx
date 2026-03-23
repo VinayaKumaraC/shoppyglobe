@@ -1,10 +1,6 @@
+
 import { useDispatch, useSelector } from "react-redux";
-import {
-  setCategory,
-  setPriceRange,
-  setRating,
-  resetFilters,
-} from "../redux/productSlice";
+import {setCategory,setPriceRange,setRating,resetFilters,} from "../redux/productSlice";
 
 export default function Sidebar() {
   const dispatch = useDispatch();
@@ -16,7 +12,7 @@ export default function Sidebar() {
   const categories = ["beauty", "fragrances", "furniture", "groceries"];
 
   return (
-    <div className="<div className="bg-white p-4 rounded shadow w-64 h-full>
+    <div className="<div className=" bg-white p-4 rounded shadow w-64 h-full>
       <h2 className="font-bold text-lg mb-2">Filters</h2>
 
       {/* 🔁 RESET BUTTON */}
