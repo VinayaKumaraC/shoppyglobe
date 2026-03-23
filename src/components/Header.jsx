@@ -1,3 +1,4 @@
+//header component
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearch, setCategory } from "../redux/productSlice";
